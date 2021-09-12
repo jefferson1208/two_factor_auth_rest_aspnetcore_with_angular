@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{0C53204B-6E8E-489D-9832-E60E5D52C1CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{AE0F4088-4E15-41A7-A175-072998CF8F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFA.Api", "src\services\Identidade\TFA.Api\TFA.Api.csproj", "{D8E489A0-6692-4334-B4C0-1F7E1B477B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E489A0-6692-4334-B4C0-1F7E1B477B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E489A0-6692-4334-B4C0-1F7E1B477B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E489A0-6692-4334-B4C0-1F7E1B477B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E489A0-6692-4334-B4C0-1F7E1B477B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8E489A0-6692-4334-B4C0-1F7E1B477B92} = {AE0F4088-4E15-41A7-A175-072998CF8F7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B1ECE6-3531-4D1E-9CC6-4EDF18C6BC0C}
+	EndGlobalSection
+EndGlobal
